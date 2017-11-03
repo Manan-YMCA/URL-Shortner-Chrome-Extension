@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Squeeze",
+  "description": "Convert your long urls to short with just a click!",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Squeeze - URL Shortner"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
